@@ -19,7 +19,8 @@ import java.util.Scanner;
 
 public class calculator 
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
     /** This is the main method JVM looks for in the system path, and executes it
      * it must be in here, or the program will not run.
     */
@@ -77,7 +78,6 @@ public class calculator
     System.out.println("The total cost of the trip is $" + something.format(drive_dist/mpg*ppg));
     /** This will calculate the total costs the driver incurs on the trip, and displays it to the console
      */
- 
     }
 }
 
